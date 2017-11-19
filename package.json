@@ -1,8 +1,8 @@
 {
-  "name": "ducks",
-  "subdomain": "mgatland-ducks",
+  "name": "newnorthroad",
+  "subdomain": "mgatland-newnorthroad",
   "scripts": {
-    "start": "node chat-server.js"
+    "start": "node index.js"
   },
   "version": "0.0.0-2",
   "engines": {
