@@ -1,0 +1,17 @@
+{
+  "name": "ducks",
+  "subdomain": "mgatland-ducks",
+  "scripts": {
+    "start": "node chat-server.js"
+  },
+  "version": "0.0.0-2",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "3.1.x",
+    "sendgrid": "^2.0.0"
+  }
+}
