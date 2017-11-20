@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 app.post("/feedback", function (req, res) {
     console.log("new feedback: ")
     console.log(req.body)
-    sendEmail(req.type, req.text)
+    sendEmail(req.body.type, req.body.text)
     res.send("ok")
 });
 
